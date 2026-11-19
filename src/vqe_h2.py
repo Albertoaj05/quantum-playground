@@ -2,7 +2,7 @@
 VQE (Variational Quantum Eigensolver) - molécula H2.
 
 Hamiltoniano H2 a distancia interatómica 0.735 Å, base STO-3G,
-mapeo Jordan-Wigner, paridad/tapering reducido a 2 qubits.
+mapeo de paridad con reducción a 2 qubits (two-qubit reduction).
 
 Coeficientes precalculados (referencia Qiskit Nature):
 
@@ -14,7 +14,8 @@ c2 = -0.39793742
 c3 = -0.01128010
 c4 =  0.18093119
 
-Energía exacta ≈ -1.85728 Ha (electronic part).
+Energía exacta (diagonalización de H) ≈ -1.85728 Ha, solo parte electrónica.
+El valor esperado se calcula con Statevector (simulación exacta, sin ruido de shots).
 """
 import numpy as np
 from scipy.optimize import minimize
