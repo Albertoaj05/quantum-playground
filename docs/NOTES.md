@@ -18,7 +18,7 @@ Same idea as Φ+ extended to 5 qubits: H on qubit 0 and a chain of CNOTs. Out of
 
 Qubit 0 holds the state to send, Ry(π/3) then Rz(π/5). Qubits 1 and 2 share a Bell pair. After Alice's CNOT + H and her two measurements, Bob applies X and Z conditioned on those bits (`if_test`, so the corrections happen inside the circuit, not in post-processing).
 
-Check: for Ry(π/3), P(1) = sin²(π/6) = 0.25. Bob's qubit came out 1 in 975 of 4096 shots (23.8%), whatever Alice measured. The Rz does not change that probability, only the phase.
+Check: for Ry(π/3), P(1) = sin²(π/6) = 0.25. Bob's qubit came out 1 in 975 of 4096 shots (23.8%) in one run and 1039 (25.4%) in the run saved in `images/`, close to 25% whatever Alice measured. The Rz does not change that probability, only the phase.
 
 ## Deutsch–Jozsa (`deutsch_jozsa.py`)
 
