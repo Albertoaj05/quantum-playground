@@ -11,7 +11,7 @@ Sampling demos run on the Aer simulator with 4096 shots; VQE uses exact statevec
 | Demo | Result |
 |---|---|
 | Grover search (4 qubits, 16 states) | Marked state `1010` found with about 96% probability after 3 iterations |
-| VQE for the H2 molecule | Ground-state energy -1.857275 Ha, matching exact diagonalization of the 2-qubit Hamiltonian (error below 10^-5 Ha), 64 COBYLA evaluations |
+| VQE for the H2 molecule | Ground-state energy -1.857275 Ha, matching exact diagonalization of the 2-qubit Hamiltonian (error below 10⁻⁵ Ha), 64 COBYLA evaluations |
 | Deutsch-Jozsa | Constant vs. balanced oracle separated with a single query |
 | Bell states | Only correlated outcomes (`00`/`11` or `01`/`10`), about 50/50 |
 | GHZ (5 qubits) | Only `00000` and `11111` (2078 / 2018 shots) |
