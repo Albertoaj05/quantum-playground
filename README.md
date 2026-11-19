@@ -2,6 +2,8 @@
 
 Eight quantum computing demos in Qiskit, each producing its own figures (circuits, measurement histograms, Bloch spheres, Q-spheres, density matrices) so the result of every algorithm can be checked visually.
 
+**Results page:** [albertoaj05.github.io/quantum-playground](https://albertoaj05.github.io/quantum-playground/)
+
 ![VQE convergence for H2](images/vqe_h2_convergence.png)
 
 ## Results
@@ -33,7 +35,7 @@ python grover.py      # or a single demo
 
 Notes on how each algorithm is built and how to read its figures: [docs/NOTES.md](docs/NOTES.md).
 
-There is also a notebook in `notebooks/quantum_playground.ipynb` and a results page, `dashboard.html` (open it from the repository folder so the figures load).
+There is also a notebook in `notebooks/quantum_playground.ipynb` and the results page above (`dashboard.html`).
 
 ## Layout
 
