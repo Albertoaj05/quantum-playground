@@ -51,5 +51,6 @@ Code comments are in Spanish.
 
 - M. Nielsen and I. Chuang, *Quantum Computation and Quantum Information*.
 - [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+- [Qiskit documentation](https://docs.quantum.ibm.com/)
 
-MIT License.
+Released under the MIT License (see `LICENSE`).
